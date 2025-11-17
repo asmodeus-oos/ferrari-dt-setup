@@ -3,10 +3,8 @@ set -e
 
 #make sure old trees are gone
 rm -rf device/realme/ferrari
-rm -rf device/oneplus/wly
 rm -rf device/oneplus/sm8450-common
 rm -rf vendor/realme/ferrari
-rm -rf vendor/oneplus/wly
 rm -rf vendor/oneplus/sm8450-common
 rm -rf kernel/oneplus/sm8450
 rm -rf kernel/oneplus/sm8450-modules
@@ -17,12 +15,10 @@ rm -rf hardware/pixelworks/interfaces
 
 #device-tree
 git clone https://github.com/pjgowtham/android_device_realme_ferrari.git -b lineage-23.0 device/realme/ferrari
-git clone https://github.com/pjgowtham/android_device_oneplus_wly.git -b lineage-23.0 device/oneplus/wly
 git clone https://github.com/pjgowtham/android_device_oneplus_sm8450-common.git -b lineage-23.0 device/oneplus/sm8450-common
 
 #vendor
 git clone https://gitlab.com/Machad3x/proprietary_vendor_realme_ferrari.git -b lineage-23.0 vendor/realme/ferrari
-git clone https://gitlab.com/Machad3x/proprietary_vendor_oneplus_wly.git -b lineage-23.0 vendor/oneplus/wly
 git clone https://gitlab.com/Machad3x/proprietary_vendor_oneplus_sm8450-common.git -b lineage-23.0 vendor/oneplus/sm8450-common
 
 #kernel
