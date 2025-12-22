@@ -15,7 +15,7 @@ rm -rf hardware/pixelworks/interfaces
 
 #device-tree
 git clone https://github.com/asmodeus-oos/android_device_realme_ferrari.git -b lineage-23.0 device/realme/ferrari
-git clone https://github.com/asmodeus-oos/android_device_oneplus_sm8450-commonx.git -b lineage-23.0 device/oneplus/sm8450-common
+git clone https://github.com/asmodeus-oos/android_device_oneplus_sm8450-common.git -b lineage-23.0 device/oneplus/sm8450-common
 
 #vendor
 git clone https://gitlab.com/asmodeus-oos/proprietary_vendor_realme_ferrari.git -b lineage-23.0 vendor/realme/ferrari
