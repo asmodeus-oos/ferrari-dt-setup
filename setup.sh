@@ -10,7 +10,6 @@ rm -rf kernel/oneplus/sm8450
 rm -rf kernel/oneplus/sm8450-modules
 rm -rf kernel/oneplus/sm8450-devicetrees
 rm -rf hardware/oplus
-rm -rf hardware/qcom-caf/sm8450
 rm -rf hardware/pixelworks/interfaces
 
 #device-tree
