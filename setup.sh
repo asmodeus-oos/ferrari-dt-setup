@@ -21,9 +21,9 @@ git clone https://gitlab.com/asmodeus-oos/proprietary_vendor_realme_ferrari.git 
 git clone https://gitlab.com/asmodeus-oos/proprietary_vendor_oneplus_sm8450-common.git -b lineage-23.0 vendor/oneplus/sm8450-common
 
 #kernel
-git clone https://github.com/asmodeus-oos/android_kernel_oneplus_sm8450.git -b lineage-23.0 kernel/oneplus/sm8450
-git clone https://github.com/asmodeus-oos/android_kernel_oneplus_sm8450-modules.git -b lineage-23.1 kernel/oneplus/sm8450-modules
-git clone https://github.com/asmodeus-oos/android_kernel_oneplus_sm8450-devicetrees.git -b lineage-23.0 kernel/oneplus/sm8450-devicetrees
+git clone https://github.com/asmodeus-oos/android_kernel_oneplus_sm8450.git -b lineage-23.2 kernel/oneplus/sm8450
+git clone https://github.com/asmodeus-oos/android_kernel_oneplus_sm8450-modules.git -b lineage-23.2 kernel/oneplus/sm8450-modules
+git clone https://github.com/asmodeus-oos/android_kernel_oneplus_sm8450-devicetrees.git -b lineage-23.2 kernel/oneplus/sm8450-devicetrees
 
 #hardware
 git clone https://github.com/asmodeus-oos/android_hardware_oplus.git -b lineage-23.2 hardware/oplus
