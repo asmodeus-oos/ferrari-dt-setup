@@ -10,7 +10,6 @@ rm -rf kernel/oneplus/sm8450
 rm -rf kernel/oneplus/sm8450-modules
 rm -rf kernel/oneplus/sm8450-devicetrees
 rm -rf hardware/oplus
-rm -rf hardware/pixelworks/interfaces
 
 #device-tree
 git clone https://github.com/asmodeus-oos/android_device_realme_ferrari.git -b lineage-23.2 device/realme/ferrari
