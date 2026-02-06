@@ -27,4 +27,3 @@ git clone https://github.com/asmodeus-oos/android_kernel_oneplus_sm8450-devicetr
 
 #hardware
 git clone https://github.com/asmodeus-oos/android_hardware_oplus.git -b lineage-23.2 hardware/oplus
-git clone https://github.com/asmodeus-oos/hardware_pixelworks_interfaces.git -b lineage-22.2 hardware/pixelworks/interfaces
