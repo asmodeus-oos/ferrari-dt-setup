@@ -35,10 +35,3 @@ git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/change
 git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/31/432431/12 && git cherry-pick FETCH_HEAD
 git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/32/432432/10 && git cherry-pick FETCH_HEAD
 cd ../../../../
-cd hardware/qcom-caf/sm8450-6.6/audio/agm
-git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_agm refs/changes/20/417220/3 && git cherry-pick FETCH_HEAD
-cd ../../display
-git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/30/432430/9 && git cherry-pick FETCH_HEAD
-git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/31/432431/12 && git cherry-pick FETCH_HEAD
-git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/32/432432/10 && git cherry-pick FETCH_HEAD
-cd ../../../../
