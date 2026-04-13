@@ -38,3 +38,5 @@ cd ../../../../
 cd hardware/qcom-caf/sm8450-6.6/audio/agm
 git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_agm refs/changes/20/417220/3 && git cherry-pick FETCH_HEAD
 cd ../../../../
+
+git clone https://github.com/asmodeus-oos/android_vendor_lineage-priv_keys.git -b infinity vendor/infinity-priv/keys && cd vendor/infinity-priv/keys && chmod 777 gen_keys.py && ./gen_keys.py && cd ../../../
