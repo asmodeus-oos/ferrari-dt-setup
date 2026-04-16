@@ -37,4 +37,4 @@ git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/change
 cd ../../../../
 cd hardware/qcom-caf/sm8450-6.6/audio/agm
 git fetch https://github.com/LineageOS/android_vendor_qcom_opensource_agm refs/changes/20/417220/3 && git cherry-pick FETCH_HEAD
-cd ../../../../
+cd ../../../../../
